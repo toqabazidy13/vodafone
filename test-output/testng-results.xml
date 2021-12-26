@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-26T20:57:11 EET" name="Default suite" finished-at="2021-12-26T20:57:26 EET" duration-ms="14406">
+    <groups>
+    </groups>
+    <test started-at="2021-12-26T20:57:11 EET" name="Default test" finished-at="2021-12-26T20:57:26 EET" duration-ms="14406">
+      <class name="tests.SearchTest">
+        <test-method is-config="true" signature="startDriver(java.lang.String)[pri:0, instance:tests.SearchTest@5158b42f]" started-at="2021-12-26T20:57:00 EET" name="startDriver" finished-at="2021-12-26T20:57:11 EET" duration-ms="11579" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startDriver -->
+        <test-method signature="userSearch()[pri:1, instance:tests.SearchTest@5158b42f]" started-at="2021-12-26T20:57:11 EET" name="userSearch" finished-at="2021-12-26T20:57:20 EET" duration-ms="8868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userSearch -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@5158b42f]" started-at="2021-12-26T20:57:20 EET" name="takeScreenShot" finished-at="2021-12-26T20:57:20 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=userSearch status=SUCCESS method=SearchTest.userSearch()[pri:1, instance:tests.SearchTest@5158b42f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="firstScreenNavigation()[pri:2, instance:tests.SearchTest@5158b42f]" started-at="2021-12-26T20:57:20 EET" name="firstScreenNavigation" finished-at="2021-12-26T20:57:23 EET" duration-ms="3037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- firstScreenNavigation -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@5158b42f]" started-at="2021-12-26T20:57:23 EET" name="takeScreenShot" finished-at="2021-12-26T20:57:23 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=firstScreenNavigation status=SUCCESS method=SearchTest.firstScreenNavigation()[pri:2, instance:tests.SearchTest@5158b42f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="SecondScreenNavigation()[pri:3, instance:tests.SearchTest@5158b42f]" started-at="2021-12-26T20:57:23 EET" name="SecondScreenNavigation" finished-at="2021-12-26T20:57:25 EET" duration-ms="2365" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SecondScreenNavigation -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@5158b42f]" started-at="2021-12-26T20:57:25 EET" name="takeScreenShot" finished-at="2021-12-26T20:57:25 EET" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SecondScreenNavigation status=SUCCESS method=SearchTest.SecondScreenNavigation()[pri:3, instance:tests.SearchTest@5158b42f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method signature="ThirdScreenNavigation()[pri:4, instance:tests.SearchTest@5158b42f]" started-at="2021-12-26T20:57:25 EET" name="ThirdScreenNavigation" finished-at="2021-12-26T20:57:26 EET" duration-ms="78" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ThirdScreenNavigation -->
+        <test-method is-config="true" signature="takeScreenShot(org.testng.ITestResult)[pri:0, instance:tests.SearchTest@5158b42f]" started-at="2021-12-26T20:57:26 EET" name="takeScreenShot" finished-at="2021-12-26T20:57:26 EET" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ThirdScreenNavigation status=SUCCESS method=SearchTest.ThirdScreenNavigation()[pri:4, instance:tests.SearchTest@5158b42f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- takeScreenShot -->
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:tests.SearchTest@5158b42f]" started-at="2021-12-26T20:57:26 EET" name="closeDriver" finished-at="2021-12-26T20:57:26 EET" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- tests.SearchTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

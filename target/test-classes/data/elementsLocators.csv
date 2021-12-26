@@ -1,0 +1,8 @@
+Locator_key,Locator_value,Find_By
+searchBox,q,name
+pageOneLinks,g,className
+endOfPage1,footcnt,id
+nextPage,pnnext,id
+pageTwoLinks,g,className
+endOfPage2,pnprev,id
+nextPage2,pnnext,id
